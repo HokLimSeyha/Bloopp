@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(202, 239, 255);
+}
+h1 {
+    color: rgb(56, 71, 83);
+}
+h3 {
+    color: blue;
+}
+p {
+    font-size: 120%;
+    text-align: start;
+}
+#info
+{
+    color: blue;
+    font-size: 120%;
+}
+.detail {
+    color: rgb(132, 18, 71);
+}
+.detail:hover {
+    border: 2px solid tan;
+    transition: 5s;
+}
+#table_style {
+    background-color: rgb(247, 248, 191);
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+#table_style th {
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    font-weight: bolder;
+}
+#table_style td {
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+}
+#table_style tr {
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+}
+#tftable {
+    font-size:12px;
+    color: white;
+    width: 75%;
+    border-width: 1px;
+    border-color: #729ea5;
+    border-collapse: collapse;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tftable th {
+    font-size:12px;
+    background-color:#606bae;
+    border-width: 1px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #729ea5;
+    text-align: center;
+}
+#tftable tr {
+    background-color:#393835;
+    padding: 10px;
+    text-align: center;
+}
+#tftable td {
+    font-size:12px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+#tftable td:hover {
+    background-color:#ffffff;
+    color: #393835;
+    padding: 10px;
+    text-align: center;
+}
+#titan {
+    background-color: #606bae;
+}
